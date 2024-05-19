@@ -11,7 +11,7 @@ const PopularItem = () => {
                 subHeading="Check it out"
                 heading="From our teddy creation"
             ></SectionTitle>
-            <div className='grid md:grid-cols-2 gap-5 '>
+            <div className='grid md:grid-cols-2 gap-5 max-w-screen-xl mx-auto'>
                 {
                     populars.map(item => <ShowPopularItem
                         key={item._id}
