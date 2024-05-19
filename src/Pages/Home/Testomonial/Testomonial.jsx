@@ -14,23 +14,23 @@ import { Navigation } from 'swiper/modules';
 const Testomonial = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('review.json')
+        fetch('http://localhost:5000/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
     return (
-        <div>
+        <div className='my-10'>
             <SectionTitle
                 subHeading="What our client say"
                 heading='Reviews'
             ></SectionTitle>
 
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper max-w-screen-xl">
                 {
                     reviews.map(review => <SwiperSlide
                         key={review._id}
                     >
-                        <div className='px-16 py-10'>
+                        <div className='px-16'>
                             <Rating
                             className='mx-auto'
                                 style={{ maxWidth: 180 }}
