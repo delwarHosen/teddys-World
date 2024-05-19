@@ -1,0 +1,7 @@
+.homeBanner{
+    background-image: url("../../../assets/banner/bannerCategory.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 100% auto;
+    /* height: 600px; */
+}

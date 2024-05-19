@@ -1,0 +1,258 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Brown Teddy Bear",
+        "details": "Brown Teddy Bear stuffed animal doesn’t have any removable accessories or items that can be swallowed.",
+        "image": "https://i.ibb.co/wWnB0pW/bear5.jpg",
+        "category": "bear",
+        "price": 49.58
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "Bunny Teddy Soft Toy",
+        "details": "Personalised Bunny Rabbit, Bunny Teddy Soft Toy, Flower Girl Page Boy Gift, Easter Plush Teddy",
+        "image": "https://i.ibb.co/CW3TkVF/BUNNIES1.jpg",
+        "category": "bunnies",
+        "price": 59.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "name": "BUNNIES",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/nPNXbxg/teddy5-2-1.png",
+        "category": "popular",
+        "price": 30.05
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "Bearlieve Teddy Bear",
+        "details": "Bearlieve Bear is the most magical way to play! Meet the first-ever Build-A-Bear that “comes to life” with your touch and voice",
+        "image": "https://i.ibb.co/Ycg05TN/bear7.jpg",
+        "category": "bear",
+        "price": 35.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "name": "BEAR",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/n8pTCRw/teddy5-2-2.png",
+        "category": "popular",
+        "price": 35.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8c",
+        "name": "Love Heart Cute Teddy Bear",
+        "details": "Love Heart Cute Teddy Bear is the most magical way to play! Meet the first-ever Build-A-Bear that “comes to life” with your touch and voice",
+        "image": "https://i.ibb.co/fQNDQ2S/bear6.jpg",
+        "category": "bear",
+        "price": 36.45
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee94",
+        "name": "The White Bunny Rabbit",
+        "details": "Hi, my name is Cottontail the White Bunny Rabbit and because of my super soft plush fur, people love to cuddle me (which I love)",
+        "image": "https://i.ibb.co/CVvGHSx/BUNNIES2.jpg",
+        "category": "bunnies",
+        "price": 54.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee9e",
+        "name": "Teddy Bear",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/SwyMPB3/teddy5-2-4.png",
+        "category": "popular",
+        "price": 45.08
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Happy Teddy Bear",
+        "details": "Happy Teddy Bear is the most magical way to play! Meet the first-ever Build-A-Bear that “comes to life” with your touch and voice",
+        "image": "https://i.ibb.co/PZxzKwb/bear2.jpg",
+        "category": "bear",
+        "price": 29.80
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaf",
+        "name": "DALL",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/7GM2ykP/dall-1-1.png",
+        "category": "popular",
+        "price": 51.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee89",
+        "name": "Giant Teddy Bear",
+        "details": "Giant Teddy Bear is the most magical way to play! Meet the first-ever Build-A-Bear that “comes to life”",
+        "image": "https://i.ibb.co/sPp1TzH/bear3.png",
+        "category": "bear",
+        "price": 46.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8a",
+        "name": "CAT",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/48sscGt/cat-1-1.png",
+        "category": "popular",
+        "price": 39.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee96",
+        "name": "Big Cute Plush Bunny",
+        "details": "The big and fluffy teddy bear design makes it a great companion for children and adults alike",
+        "image": "https://i.ibb.co/TwLS6wc/bunnies3.jpg",
+        "category": "bunnies",
+        "price": 49.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee81",
+        "name": "Pink Long Doll Teddy",
+        "details": "Morris Michtom, a Brooklyn candy shop owner, saw the cartoon and had an idea.",
+        "image": "https://i.ibb.co/wrG5C8X/dall2.jpg",
+        "category": "offered",
+        "price": 10.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee84",
+        "name": "World's Softest Bunny",
+        "details": "The big and fluffy teddy bear design makes it a great companion for children and adults alike",
+        "image": "https://i.ibb.co/4NLq8XP/bunnies4.jpg",
+        "category": "bunnies",
+        "price": 59.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea4",
+        "name": "Giant Teddy Bear",
+        "details": "Giant Teddy Bear is the most magical way to play! Meet the first-ever Build-A-Bear that “comes to life”",
+        "image": "https://i.ibb.co/sPp1TzH/bear3.png",
+        "category": "offered",
+        "price": 39.52
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea5",
+        "name": "Russ Bunky Teddy Bear Red",
+        "details": "Russ Bunky Teddy Bear Red is a stuffed toy that's a small, adorable version of an intimidating, furry mammal",
+        "image": "https://i.ibb.co/xL0c0Vv/dall1.jpg",
+        "category": "dall",
+        "price": 39.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee87",
+        "name": "Pink Long Doll Teddy",
+        "details": "Morris Michtom, a Brooklyn candy shop owner, saw the cartoon and had an idea.",
+        "image": "https://i.ibb.co/wrG5C8X/dall2.jpg",
+        "category": "dall",
+        "price": 35.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee83",
+        "name": "Cat Stuffed Animals",
+        "details": "The Persian and the British Shorthair were crossed to create the British Longhair",
+        "image": "https://i.ibb.co/5Kvsd8L/cat2.jpg",
+        "category": "offered",
+        "price": 13.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7f",
+        "name": "Teddy BEAR",
+        "details": "In 1902, the first teddy bears appeared on the toy market. A Brooklyn businessman",
+        "image": "https://i.ibb.co/KqGQdtB/teddy5-2.png",
+        "category": "popular",
+        "price": 14.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea8",
+        "name": "Soft Stuffed Pink Doll Teddy",
+        "details": "A teddy bear is a stuffed toy that's a small, adorable version of an intimidating, furry mammal.",
+        "image": "https://i.ibb.co/G2FSTtT/dall3.jpg",
+        "category": "dall",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeba",
+        "name": "Pawlette Bunny Plush",
+        "details": "Brown Teddy Bear stuffed animal doesn’t have any removable accessories or items that can be swallowed.",
+        "image": "https://i.ibb.co/sQ85Zqp/bunnies-5.jpg",
+        "category": "bunnies",
+        "price": 29.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee80",
+        "name": "Cat Teddy Bear ",
+        "details": "The Persian and the British Shorthair were crossed to create the British Longhair.",
+        "image": "https://i.ibb.co/Vx36pDn/cat3.jpg",
+        "category": "cat",
+        "price": 49.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee90",
+        "name": "Pink Fur Modi Jacket Teddy",
+        "details": "Teddy bears are often toys for children. They are also used to comfort people and to teach.",
+        "image": "https://i.ibb.co/yh7xvB5/dall4.jpg",
+        "category": "dall",
+        "price": 22.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb0",
+        "name": "FUR Pink Teddy Bear",
+        "details": "Teddy bears are often toys for children. They are also used to comfort people and to teach.",
+        "image": "https://i.ibb.co/GR4mV8Z/dall5.jpg",
+        "category": "dall",
+        "price": 49.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8d",
+        "name": "Pink Long Doll Teddy Bear for Kids",
+        "details": "A teddy bear is a stuffed toy that's a small, adorable version of an intimidating, furry mammal",
+        "image": "https://i.ibb.co/VgjFwLf/dall7.jpg",
+        "category": "dall",
+        "price": 25.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8e",
+        "name": "Goldie Golden Mini Soft",
+        "details": "Teddy bear dog breeds possess adorable charisma, and their teddy-like nature is delightful",
+        "image": "https://i.ibb.co/L01vSdf/dog1.jpg",
+        "category": "dog",
+        "price": 25.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea7",
+        "name": "Golden Retriever Dog teddy",
+        "details": "Toys are more than just a bit of fun for your dog. They stop them from getting bored",
+        "image": "https://i.ibb.co/jVKRR4H/dog2.jpg",
+        "category": "dog",
+        "price": 31.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee99",
+        "name": "Stuffed Animals dog teddy",
+        "details": "Teddy bear dog breeds possess adorable charisma, and their teddy-like nature is delightful",
+        "image": "https://i.ibb.co/5kWnngw/dog3.jpg",
+        "category": "dog",
+        "price": 49.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb3",
+        "name": "Cavapoo Dog Teddy",
+        "details": "Toys are more than just a bit of fun for your dog. They stop them from getting bored",
+        "image": "https://i.ibb.co/fk9gzTZ/dog4.jpg",
+        "category": "dog",
+        "price": 39.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb5",
+        "name": "Cat Stuffed Animals Vermont",
+        "details": "From Persian cats and British Shorthairs to the Turkish Angora and Russian Blues,",
+        "image": "https://i.ibb.co/ZcKWpKF/cat.jpg",
+        "category": "cat",
+        "price": 55.99
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb6",
+        "name": "Cat Stuffed Animals",
+        "details": "The Persian and the British Shorthair were crossed to create the British Longhair",
+        "image": "https://i.ibb.co/5Kvsd8L/cat2.jpg",
+        "category": "cat",
+        "price": 48.99
+    }
+]

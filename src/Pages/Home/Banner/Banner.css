@@ -1,0 +1,9 @@
+.customSlider{
+    height: 550px !important;
+    z-index: -999 !important;
+}
+
+
+@media only screen and (max-width:668px) {
+    .customSlider {height: 350px !important;}
+}
