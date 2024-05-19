@@ -6,8 +6,10 @@ const useProduct = () => {
     useEffect(() => {
         fetch("allTeddyType.json")
             .then(res => res.json())
-            .then(data => setProducts(data))
-        setLoading(false)
+            .then(data => {
+                setProducts(data)
+                setLoading(false)
+            })
     }, [])
     return [products, loading]
 };

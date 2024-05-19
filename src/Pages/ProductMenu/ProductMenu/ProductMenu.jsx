@@ -29,15 +29,15 @@ const ProductMenu = () => {
             <SectionTitle subHeading="Don't miss it" heading="Today's Offer"></SectionTitle>
             <ProductCategory items={offereds}></ProductCategory>
             {/* teddy Bear */}
-            <ProductCategory items={bears} title="Teddy Bear" img={bearImg}></ProductCategory>
+            <ProductCategory items={bears} title="bear" img={bearImg}></ProductCategory>
             {/* Bunnies Teddy */}
-            <ProductCategory items={bunnies} title="Bunnies Teddy" img={bunniesImg}></ProductCategory>
+            <ProductCategory items={bunnies} title="bunnies" img={bunniesImg}></ProductCategory>
             {/* dalls teddy */}
-            <ProductCategory items={dalls} title="Dall Teddy" img={dallImg}></ProductCategory>
+            <ProductCategory items={dalls} title="dall" img={dallImg}></ProductCategory>
             {/* Cats teddy */}
-            <ProductCategory items={cats} title="Cats Teddy" img={catImg}></ProductCategory>
+            <ProductCategory items={cats} title="cat" img={catImg}></ProductCategory>
             {/* Dogs teddy */}
-            <ProductCategory items={dogs} title="Dogs Teddy" img={dogImg}></ProductCategory>
+            <ProductCategory items={dogs} title="dog" img={dogImg}></ProductCategory>
         </div>
     );
 };
