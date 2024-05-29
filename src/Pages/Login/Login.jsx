@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form"
 import { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import Swal from 'sweetalert2';
+import SocialLogin from '../../components/SocialLogin/SocialLogin';
 
 const Login = () => {
     const { signIn } = useContext(AuthContext)
@@ -51,7 +52,7 @@ const Login = () => {
                 <div className="flex mx-auto">
                     <div className='md:flex gap-5'>
                         <div className="text-center">
-                            <img className='md:h-[420px] md:w-full w-[380px] border-2 border-[#C31773]' src={loginImg} alt="" />
+                            <img className='md:h-[420px] md:w-full w-[380px]' src={loginImg} alt="" />
                         </div>
                         <div className="w-full max-w-sm shadow bg-[#F1F1F1] border-2 border-[#C31773]">
                             <h1 className='text-4xl font-bold text-center uppercase pt-5'>Please Login!</h1>
@@ -71,8 +72,9 @@ const Login = () => {
                                 <div className="form-control mt-3">
                                     <button className="btn bg-white text-xl font-bold border-b-[#000000] border-b-4">Login</button>
                                 </div>
-                                <p className='text-center font-medium mt-3'><Link to='/signup'>New Hare? Create a new account</Link></p>
+                                <p className='text-center font-medium mt-2'><Link to='/signup'>New Hare? Create a new account</Link></p>
                             </form>
+                            <SocialLogin></SocialLogin>
                         </div>
                     </div>
                 </div>

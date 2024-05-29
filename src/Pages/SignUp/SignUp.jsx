@@ -6,11 +6,14 @@ import { useForm } from 'react-hook-form';
 import { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import Swal from 'sweetalert2'
+import useAxiosPublic from '../../hooks/useAxiosPublic';
+import SocialLogin from '../../components/SocialLogin/SocialLogin';
 
 const SignUp = () => {
 
     const { createUser, userUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
+    const axiosPublic = useAxiosPublic()
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm()
     const onSubmit = (data) => {
@@ -21,15 +24,25 @@ const SignUp = () => {
 
                 userUpdateProfile(data.name, data.photoURL)
                     .then(() => {
-                        reset()
-                        Swal.fire({
-                            position: "top-end",
-                            icon: "success",
-                            title: "User successfully create account",
-                            showConfirmButton: false,
-                            timer: 1500
-                        });
-                        navigate('/')
+                        const userInfo = {
+                            name: data.name,
+                            email: data.email
+                        }
+                        axiosPublic.post('/users', userInfo)
+                            .then(res => {
+                                if (res.data.insertedId) {
+                                    reset()
+                                    Swal.fire({
+                                        position: "top-end",
+                                        icon: "success",
+                                        title: "User successfully create account",
+                                        showConfirmButton: false,
+                                        timer: 1500
+                                    });
+                                    navigate('/')
+                                }
+                            })
+
                     })
                     .catch(error => console.log(error))
 
@@ -44,7 +57,7 @@ const SignUp = () => {
                 <div className="flex mx-auto">
                     <div className='md:flex gap-x-5'>
                         <div className="text-center">
-                            <img className='md:h-[510px] md:w-full w-[380px] border-2 border-[#C31773]' src={loginImg} alt="" />
+                            <img className='md:h-[510px] md:w-full w-[380px]' src={loginImg} alt="" />
                         </div>
                         <div className="w-full max-w-sm shadow bg-[#F1F1F1] border-2 border-[#C31773] ">
                             <h1 className='text-4xl font-bold text-center uppercase pt-5'>Sign Up!</h1>
@@ -74,11 +87,12 @@ const SignUp = () => {
                                     </label>
                                     <input type="password" {...register("password")} placeholder="password" className="input" required />
                                 </div>
-                                <div className="form-control mt-3">
+                                <div className="form-control mt-2">
                                     <input className="btn bg-white text-xl font-bold border-b-[#000000] border-b-4" type="submit" value="Sign Up" />
                                 </div>
-                                <p className='text-center font-medium mt-3'><Link to='/login'>Already have an Account? please login</Link></p>
+                                <p className='text-center font-medium mt-1'><Link to='/login'>Already have an Account? please login</Link></p>
                             </form>
+                            <SocialLogin></SocialLogin>
                         </div>
                     </div>
                 </div>
