@@ -1,15 +1,18 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
+// import useAuth from "../../../hooks/useAuth";
 import Swal from 'sweetalert2'
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import useCart from "../../../hooks/useCart";
+import { useContext } from "react";
+import { AuthContext } from "../../../Pages/Provider/AuthProvider";
 
 const ProductCard = ({ item }) => {
     const { _id, name, image, details, price } = item;
     const navigate = useNavigate()
     const location = useLocation()
-    const { user } = useAuth()
-    const [,refetch] = useCart()
+    // const { user } = useAuth()
+    const { user } = useContext(AuthContext)
+    const [, refetch] = useCart()
 
     const axiosSecure = useAxiosSecure()
 

@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form"
 import { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
 import Swal from 'sweetalert2';
-import SocialLogin from '../../components/SocialLogin/SocialLogin';
+import SocialLogin from '../../components/SocialLogin';
 
 const Login = () => {
     const { signIn } = useContext(AuthContext)

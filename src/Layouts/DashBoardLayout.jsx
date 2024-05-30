@@ -1,10 +1,11 @@
 import { FaBook, FaHome, FaPaypal, FaShoppingCart } from "react-icons/fa";
 import { FaBookBible, FaStreetView } from "react-icons/fa6";
 import { NavLink, Outlet } from "react-router-dom";
+import useAdmin from "../hooks/useAdmin";
 
 
 const DashBoardLayout = () => {
-    const isAdmin = true
+    const [isAdmin] = useAdmin()
     return (
         <div className="flex max-w-screen-xl mx-auto">
             <div className="w-64 bg-purple-600 min-h-screen pt-10" style={{ borderRadius: '0px 40px 40px 0px' }}>
