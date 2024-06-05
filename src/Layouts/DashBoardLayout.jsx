@@ -8,7 +8,7 @@ const DashBoardLayout = () => {
     const [isAdmin] = useAdmin()
     return (
         <div className="flex max-w-screen-xl mx-auto">
-            <div className="w-64 bg-purple-600 min-h-screen pt-10" style={{ borderRadius: '0px 40px 40px 0px' }}>
+            <div className="bg-purple-600 min-h-screen pt-10" style={{ borderRadius: '0px 40px 40px 0px' }}>
                 <ul className="menu px-8 text-white">
                     {
                         isAdmin ? <>
@@ -19,7 +19,7 @@ const DashBoardLayout = () => {
                                 <NavLink to="/dashboard/addProduct"><FaBook></FaBook>Add Product</NavLink>
                             </li>
                             <li className="my-1">
-                                <NavLink to="/dashboard/manageBooking"><FaShoppingCart></FaShoppingCart>Manage Booking</NavLink>
+                                <NavLink to="/dashboard/manageProduct"><FaShoppingCart></FaShoppingCart>Manage Product</NavLink>
                             </li>
                             <li className="my-1">
                                 <NavLink to="/dashboard/allUser"> <FaPaypal></FaPaypal> All AUser</NavLink>
@@ -51,7 +51,7 @@ const DashBoardLayout = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="w-3/4">
                 <Outlet></Outlet>
             </div>
         </div>
