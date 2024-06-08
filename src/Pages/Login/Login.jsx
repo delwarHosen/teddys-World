@@ -11,10 +11,10 @@ import SocialLogin from '../../components/SocialLogin';
 
 const Login = () => {
     const { signIn } = useContext(AuthContext)
-
     const location = useLocation()
     const navigate = useNavigate()
-    const from = location?.state?.from?.pathname || '/'
+    const from = location.state?.from?.pathname || '/'
+    
     console.log("state in the location", location.state);
 
 
@@ -42,7 +42,7 @@ const Login = () => {
               `
                     }
                 });
-                navigate(from, { replace: true })
+                navigate(from, { replace: true });
             })
     }
     return (

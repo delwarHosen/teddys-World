@@ -7,15 +7,14 @@ const PrivateRoutes = ({ children }) => {
 
     const location = useLocation()
 
-    if (user) {
-        return children
-    }
-
     if (loading) {
         return <span className="loading loading-ring loading-lg"></span>
     }
 
-
+    if (user) {
+        return children
+    }
+ 
     return <Navigate to='/login' state={{ from: location }} replace></Navigate>
 };
 
